@@ -1,0 +1,175 @@
+/*
+* @Author: Administrator
+* @Date:   2018-03-10 09:04:50
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-03-10 10:12:30
+*/
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+}
+.phone-before {
+	float: left;
+	width: 286px;
+	height: 603px;
+	background: #04040b;
+	border-radius: 14px;
+	/*overflow: hidden;*/
+	/*margin: 0 auto;*/
+	/* box-shadow: 0 0 3px 2px white inset; */
+}
+.phone-top {
+	width: 286px;
+	height: 54px;
+	background: #000000;
+	margin: 0 auto;
+	position: relative;
+	border-radius: 14px 14px 0 0;
+}
+.phone-top .top-she{
+	width: 8px;
+	height: 8px;
+	background: #565557;
+	position: absolute;
+	top: 23px;
+	left: 88px;
+	border-radius: 6px;
+	position: relative;
+}
+.phone-top .top-she .lanse{
+	width: 4px;
+	height: 4px;
+	background: #439CF6;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	border-radius: 50%;
+}
+.phone-top .top-ting{
+	width: 50px;
+	height: 12px;
+	background: #565557;
+	position: absolute;
+	top: 21px;
+	left: 118px;
+	border-radius: 6px;
+}
+.phone-top .top-ting .pao{
+	width: 20px;
+	height: 6px;
+	background: #000;
+	position: absolute;
+	top: 3px;
+	left: 5px;
+	border-radius: 6px;
+}
+.phone-content {
+	width: 266px;
+	height: 473px;
+	margin: 0 auto;
+	border: 2px solid black;
+	position: relative;
+}
+.volume {
+	border-radius: 0 3px 3px 0px;
+	height: 35px;
+	width: 4px;
+	position: absolute;
+	background: #303033;
+	top: 186px;
+	right: -14px;
+}
+.shutdown {
+	border-radius: 0 3px 3px 0px;
+	height: 55px;
+	width: 4px;
+	position: absolute;
+	background: #303033;
+	top: 80px;
+	right: -14px;
+}
+.phone-content img {
+	width: 266px;
+}
+.phone-bottom {
+	width: 286px;
+	height: 66px;
+	background: #303033;
+	margin: 0 auto;
+	margin-top: 6px;
+	position: relative;
+	border-radius: 0 0 14px 14px;
+}	
+
+.home {
+	height: 38px;
+	width: 38px;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: absolute;
+	top: 14px;
+	left: 124px;
+	box-shadow: 0 0 0 2px #4D4D4F inset;
+}
+
+
+
+
+.phone-back {
+	width: 286px;
+	height: 603px;
+	background: #04040b;
+	border-radius: 14px;
+	/*overflow: hidden;*/
+	/*margin: 0 auto;	*/
+	float: left;
+	margin-left: 60px;
+}
+.back-shan {
+	height: 22px;
+	width: 10px;
+	background: #303033;
+	border-radius: 5px;
+	position: absolute;
+	top: 17px;
+	left: 14px;
+}
+.back-she1 {
+	height: 12px;
+	width: 12px;
+	background: blue;
+	border-radius: 50%;
+	position: absolute;
+	top: 22px;
+	left: 44px;
+	box-shadow: 0 0 0 6px #000000,0 0 0 9px #303033;
+}
+
+.back-she2 {
+	height: 12px;
+	width: 12px;
+	background: blue;
+	border-radius: 50%;
+	position: absolute;
+	top: 22px;
+	left: 83px;
+	box-shadow: 0 0 0 6px #000000,0 0 0 9px #303033;
+}
+
+.back-logo {
+	height: 60px;
+	width: 60px;
+	position: absolute;
+	top: 137px;
+	left: 105px;
+	background:#303033;
+	border-radius: 50%;
+}
+
+
